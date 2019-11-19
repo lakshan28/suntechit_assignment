@@ -1,0 +1,57 @@
+.container {
+  height: 1000px;
+}
+.row {
+  background: chartreuse;
+  margin-top: 15%;
+  width: 1000px;
+}
+.harmonee-text {
+  margin-top: 50px;
+}
+.harmonee-icon {
+  background: transparent;
+  color: #00a876;
+
+  display: flex;
+  flex-direction: row;
+}
+.harmonee-btn-icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.welcome {
+  background: #151a22 0% 0% no-repeat padding-box;
+}
+
+.welcome-text {
+  color: aliceblue;
+}
+.register-text {
+  color: aliceblue;
+  font-size: 18px;
+}
+.welcome-content {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+.welcome-content p {
+  color: aliceblue;
+  opacity: 0.5;
+}
+.register-button {
+  background: #00a876 0% 0% no-repeat padding-box;
+  padding: 10px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+  margin-bottom: 15%;
+}
+.register-link {
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
