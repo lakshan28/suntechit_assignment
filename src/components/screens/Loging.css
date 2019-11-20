@@ -2,9 +2,12 @@
   height: 1000px;
 }
 .row {
-  background: chartreuse;
+  background: #00a876;
   margin-top: 15%;
-  width: 1000px;
+  width: 115%;
+}
+.welcome {
+  padding: 5%;
 }
 .harmonee-text {
   margin-top: 50px;
@@ -47,11 +50,44 @@
   padding: 10px;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
-
+  border: none;
   margin-bottom: 15%;
 }
 .register-link {
   color: black;
   margin-left: 20px;
   margin-right: 20px;
+}
+.register-url {
+  color: aliceblue;
+  opacity: 0.5;
+}
+.loging {
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  left: 5%;
+}
+.loging-heading {
+  color: antiquewhite;
+  margin-bottom: 20%;
+}
+.login-button {
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+  padding: 10px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: none;
+  margin-bottom: 15%;
+}
+.login-row {
+  display: flex;
+  flex-direction: row;
+}
+.forget-password {
+  color: #f7f7f7;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 10%;
+  margin-top: 2%;
 }

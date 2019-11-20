@@ -1,0 +1,21 @@
+.textbox {
+  width: 70%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin-bottom: 12%;
+  border-bottom: 1px solid #f7f7f7;
+}
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  float: left;
+  margin: 0 10px;
+}
+::placeholder {
+  color: white;
+}

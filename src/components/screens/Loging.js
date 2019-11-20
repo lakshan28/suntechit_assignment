@@ -2,13 +2,14 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import "./Loging.css";
 import { GiHummingbird } from "react-icons/gi";
+import TextField from "../TextField/TextField";
 
 function Loging() {
   return (
     <Router>
       <div class="container">
         <div class="row">
-          <div class="col-8 welcome">
+          <div class="col-7 welcome">
             <div className="harmonee">
               <div className="harmonee-icon">
                 <GiHummingbird className="harmonee-btn-icon" />
@@ -38,12 +39,26 @@ function Loging() {
               </Link>
             </button>
             <div className="harmonee-link">
-              <Link className="nav-lin register-link" to="/register">
+              <Link className="nav-lin register-url" to="/register">
                 www.harmonee.com.au
               </Link>
             </div>
           </div>
-          <div class="col-4 loging">One of three columns</div>
+          <div class="col-5 loging">
+            <div className="loging-heading">
+              <h2>Loging to your account</h2>
+            </div>
+            <TextField placeholder="Your email" name="email" type="email" />
+            <TextField placeholder="Password" name="password" type="password" />
+            <div className="login-row">
+              <button className="login-button">
+                <Link className="nav-lin register-link" to="/register">
+                  Login
+                </Link>
+              </button>
+              <p className="forget-password"> Forget Password ?</p>
+            </div>
+          </div>
         </div>
       </div>
     </Router>
