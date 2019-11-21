@@ -1,12 +1,12 @@
 import React from "react";
-import Loging from "./components/screens/Loging";
-import "./App.css";
+//import Loging from "./components/screens/Loging";
+import Dashboard from "./components/screens/Dashboard";
 
 function App() {
   return (
-    <div className="App">
-      <Loging />
-    </div>
+    <React.Fragment>
+      <Dashboard />
+    </React.Fragment>
   );
 }
 

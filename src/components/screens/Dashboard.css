@@ -1,0 +1,215 @@
+.main {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: yellow;
+  display: flex;
+  flex-direction: row;
+}
+
+.first-row {
+  height: 100%;
+  width: 20%;
+  background: #131f25;
+}
+.three-line-icon-dev {
+  justify-content: flex-end;
+  display: flex;
+  margin: 2%;
+}
+.three-line-icon {
+  color: #00a876;
+  width: 50px;
+  height: 50px;
+}
+.profile-image {
+  justify-content: center;
+  display: flex;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 10%;
+}
+.profile-description {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.profile-name {
+  font-size: 25px;
+  font-weight: 500;
+}
+.profile-status {
+  font-size: 18px;
+}
+.horizotal-line {
+  background: honeydew;
+  opacity: 0.5;
+  width: 80%;
+  height: 2px;
+  margin: 10%;
+  overflow: hidden;
+}
+
+p {
+  color: honeydew;
+}
+
+.topic {
+  color: honeydew;
+  opacity: 0.5;
+  font-size: 20px;
+  margin-left: 5%;
+}
+.nav-button {
+  color: honeydew;
+  background: #1e313b;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 80%;
+  height: 15%;
+  margin: 3%;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  outline: none;
+}
+.button-icon {
+  color: #ffffff;
+  width: 30%;
+  height: 35px;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+/*********      
+button:active {
+  outline: none;
+  border: none;
+}
+
+*/
+
+button:focus {
+  outline: 0;
+}
+.title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 2%;
+}
+/***search bar */
+.harmonee-text {
+  margin-top: 50px;
+  color: aliceblue;
+}
+.harmonee-icon {
+  background: transparent;
+  color: #10e633;
+
+  display: flex;
+  flex-direction: row;
+}
+.harmonee-btn-icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.main-search-area {
+  display: flex;
+  justify-content: space-around;
+}
+.search-area {
+  background: rgb(255, 255, 255);
+  width: 50%;
+}
+
+/***search bar end */
+.row2 {
+  height: 100%;
+  width: 80%;
+
+  background-image: linear-gradient(0deg, rgb(46, 139, 3), rgb(1, 185, 93));
+}
+.second-row {
+  display: flex;
+  flex-direction: row;
+}
+.row3 {
+  width: 80%;
+  height: 100%;
+  background: grey;
+}
+/**********Chart ****/
+.row-1 {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  border-style: groove;
+}
+.doughnut {
+  border-style: groove;
+  margin: 3px;
+  box-shadow: 2px 2px 2px 2px grey;
+  height: 400px;
+  width: 700px;
+}
+
+.row-2 {
+  width: 100%;
+  height: 200px;
+  background: rgb(181, 190, 245);
+}
+.row-3 {
+  width: 100%;
+  height: 200px;
+  background: rgb(102, 233, 109);
+}
+.row-4 {
+  width: 100%;
+  height: 200px;
+  background: rgb(2, 62, 73);
+}
+.row-5 {
+  width: 100%;
+  height: 200px;
+  background: rgb(0, 1, 66);
+}
+
+.row4 {
+  width: 20%;
+  height: 500px;
+  background: rgb(233, 96, 96);
+}
+.row-11 {
+  width: 100%;
+  height: 200px;
+  background: #f33ecc;
+}
+.row-22 {
+  width: 100%;
+  height: 200px;
+  background: rgb(60, 75, 214);
+}
+
+.row-33 {
+  width: 100%;
+  height: 200px;
+  background: rgb(240, 227, 42);
+}
+
+.row-44 {
+  width: 100%;
+  height: 200px;
+  background: rgb(235, 100, 194);
+}
+
+.row-55 {
+  width: 100%;
+  height: 200px;
+  background: rgb(12, 177, 26);
+}
