@@ -16,6 +16,14 @@ import { GiHummingbird } from "react-icons/gi";
 import TextField from "../TextField/TextField";
 import Button from "../Button/Button";
 import Chart from "../Charts/Pie/Chart";
+import PolarAre from "../Charts/PolarAre";
+import BarChart from "../Charts/BarChart";
+import LineChart from "../Charts/LineChart";
+import Calenda from "../Scheduled/calendar/Calenda";
+import Team from "../Scheduled/Team/Team";
+import TodoList from "../Scheduled/TodoList/TodoList";
+import ScheduledMettings from "../Scheduled/ScheduledMettings/ScheduledMettings";
+import Activity from "../Scheduled/Activity/Activity";
 function Dashboard() {
   return (
     <div className="main">
@@ -223,14 +231,27 @@ function Dashboard() {
                 <Chart />
               </div>
               <div className="radar">
-                <h1>loka</h1>
+                <PolarAre />
+              </div>
+            </div>
+            <div className="row-1">
+              <div className="doughnut">
+                <Chart />
+              </div>
+              <div className="radar">
+                <PolarAre />
               </div>
             </div>
             <div className="row-2">
-              {" "}
-              <Chart />
+              <div className="bar-chart">
+                <BarChart />
+              </div>
             </div>
-            <div className="row-3"></div>
+            <div className="row-3">
+              <div className="bar-chart">
+                <LineChart />
+              </div>
+            </div>
             <div className="row-4"></div>
             <div className="row-5"></div>
           </div>
@@ -238,11 +259,21 @@ function Dashboard() {
             //********3 rd row*******
           }
           <div className="row4">
-            <div className="row-11"></div>
-            <div className="row-22"></div>
-            <div className="row-33"></div>
-            <div className="row-44"></div>
-            <div className="row-55"></div>
+            <div className="row-11">
+              <Calenda />
+            </div>
+            <div className="row-22">
+              <Team />
+            </div>
+            <div className="row-33">
+              <TodoList />
+            </div>
+            <div className="row-44">
+              <ScheduledMettings />
+            </div>
+            <div className="row-55">
+              <Activity />
+            </div>
           </div>
         </div>
       </div>

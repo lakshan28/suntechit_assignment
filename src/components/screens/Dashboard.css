@@ -17,6 +17,9 @@
   display: flex;
   margin: 2%;
 }
+.activity-icon {
+  margin-left: 5%;
+}
 .three-line-icon {
   color: #00a876;
   width: 50px;
@@ -138,7 +141,7 @@ button:focus {
   flex-direction: row;
 }
 .row3 {
-  width: 80%;
+  width: 70%;
   height: 100%;
   background: grey;
 }
@@ -156,18 +159,38 @@ button:focus {
   margin: 3px;
   box-shadow: 2px 2px 2px 2px grey;
   height: 400px;
-  width: 700px;
+  width: 45%;
+}
+.radar {
+  border-style: groove;
+  margin: 3px;
+  box-shadow: 2px 2px 2px 2px grey;
+  height: 400px;
+  width: 55%;
 }
 
 .row-2 {
   width: 100%;
-  height: 200px;
-  background: rgb(181, 190, 245);
+  height: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  border-style: groove;
+}
+.bar-chart {
+  margin: 3px;
+
+  height: 50%;
+  width: 60%;
+  margin-left: 20%;
 }
 .row-3 {
   width: 100%;
-  height: 200px;
-  background: rgb(102, 233, 109);
+  height: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  border-style: groove;
 }
 .row-4 {
   width: 100%;
@@ -179,37 +202,38 @@ button:focus {
   height: 200px;
   background: rgb(0, 1, 66);
 }
+/*****Scheduled *****/
 
 .row4 {
-  width: 20%;
-  height: 500px;
+  width: 30%;
+  height: 100%;
   background: rgb(233, 96, 96);
 }
 .row-11 {
   width: 100%;
-  height: 200px;
-  background: #f33ecc;
+  height: 100%;
+  background: #ffffff;
 }
 .row-22 {
   width: 100%;
-  height: 200px;
-  background: rgb(60, 75, 214);
+  height: 100%;
+  background: #ffffff;
 }
 
 .row-33 {
   width: 100%;
-  height: 200px;
-  background: rgb(240, 227, 42);
+  height: 100%;
+  background: rgb(255, 255, 255);
 }
 
 .row-44 {
   width: 100%;
-  height: 200px;
-  background: rgb(235, 100, 194);
+  height: 100%;
+  background: rgb(255, 255, 255);
 }
 
 .row-55 {
   width: 100%;
-  height: 200px;
-  background: rgb(12, 177, 26);
+  height: 100%;
+  background: rgb(255, 255, 255);
 }
