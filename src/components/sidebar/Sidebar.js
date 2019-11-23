@@ -170,7 +170,7 @@ class Sidebar extends Component {
           <div>
             <button className="nav-button" style={{ marginBottom: 100 }}>
               <FaSlidersH className="button-icon" />
-              <p className="title">Maps</p>
+              <p className="title">Settings</p>
             </button>
           </div>
         </div>
@@ -185,7 +185,7 @@ class Sidebar extends Component {
         <div>
           <button className="nav-button" style={{ marginBottom: 100 }}>
             <AiOutlinePoweroff className="button-icon" />
-            <p className="title">Settings</p>
+            <p className="title">Logout</p>
           </button>
         </div>
       </div>
