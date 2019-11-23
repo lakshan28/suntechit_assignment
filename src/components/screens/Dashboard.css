@@ -8,7 +8,7 @@
 }
 .side-bar12 {
   margin-top: -10px;
-  width: 30%;
+  width: 20%;
 }
 
 .first-row {
@@ -34,8 +34,8 @@
   display: flex;
 }
 .image {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin-top: 10%;
 }
