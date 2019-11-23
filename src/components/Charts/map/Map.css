@@ -1,0 +1,11 @@
+.main-map {
+  display: flex;
+  flex-direction: row;
+}
+.map-image {
+  width: 55%;
+  height: 100%;
+}
+.progress-bar {
+  width: 45%;
+}

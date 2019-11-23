@@ -76,7 +76,7 @@ class Sidebar extends Component {
           <div>
             <button className="nav-button">
               <MdDashboard className="button-icon" />
-              <p className="title">Dashboard</p>
+              <p className="title">Dashboarddd</p>
             </button>
           </div>
           <div>

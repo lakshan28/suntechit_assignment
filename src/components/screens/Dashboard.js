@@ -14,6 +14,7 @@ import Activity from "../Scheduled/Activity/Activity";
 import Congrats from "../Charts/CongratsBar/Congrats";
 import Visionary from "../Charts/CongratsBar/Visionary";
 import SearchBar from "../Charts/CongratsBar/SearchBar";
+import Map from "../Charts/map/Map";
 
 class Dashboard extends Component {
   constructor(props) {
@@ -66,7 +67,9 @@ class Dashboard extends Component {
                   <LineChart />
                 </div>
               </div>
-              <div className="row-4"></div>
+              <div className="row-4">
+                <Map />
+              </div>
               <div className="row-5"></div>
             </div>
             {
