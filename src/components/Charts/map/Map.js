@@ -3,6 +3,7 @@ import "./Map.css";
 import { IoMdAddCircleOutline } from "react-icons/io";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { AiOutlineExclamationCircle } from "react-icons/ai";
+import ProgressBar from "react-bootstrap/Button";
 
 class Map extends Component {
   render() {
@@ -16,15 +17,7 @@ class Map extends Component {
           />
         </div>
         <div className="progress-bar">
-          <div class="progress">
-            <div
-              className="progress-bar"
-              role="progressbar"
-              aria-valuenow="25"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
+          <ProgressBar variant="success" now={40} />
         </div>
       </div>
     );
