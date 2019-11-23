@@ -16,7 +16,15 @@ class Map extends Component {
           />
         </div>
         <div className="progress-bar">
-          <h1>loka</h1>
+          <div class="progress">
+            <div
+              className="progress-bar"
+              role="progressbar"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
         </div>
       </div>
     );
