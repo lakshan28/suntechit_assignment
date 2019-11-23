@@ -7,27 +7,12 @@ class Chart extends Component {
     super(props);
     this.state = {
       chartData: {
-        labels: [
-          "Boston",
-          "Worcester",
-          "Springfield",
-          "Lowell",
-          "Cambridge",
-          "New Bedford"
-        ],
+        labels: ["Completed", "In Progress", "Canceled", "Delayed"],
         datasets: [
           {
             label: "Population",
-            data: [617594, 181045, 153060, 106519, 105162, 95072],
-            backgroundColor: [
-              "rgba(255, 99, 132, 0.6)",
-              "rgba(54, 162, 235, 0.6)",
-              "rgba(255, 206, 86, 0.6)",
-              "rgba(75, 192, 192, 0.6)",
-              "rgba(153, 102, 255, 0.6)",
-              "rgba(255, 159, 64, 0.6)",
-              "rgba(255, 99, 132, 0.6)"
-            ]
+            data: [47.3, 25.0, 20, 13.1],
+            backgroundColor: ["#02F0C7", "#3ABEFF", "#935CCB", "#707070"]
           }
         ]
       }
@@ -43,22 +28,29 @@ class Chart extends Component {
 
   render() {
     return (
-      <div>
+      <div className="dought-chart">
         <Doughnut
           data={this.state.chartData}
           options={{
             title: {
               display: true,
-              text: "Largest Cities In Massachusetts",
-              fontSize: 10
+              text: "Tasks",
+              fontSize: 20,
+              position: "top"
             },
             legend: {
               display: true,
               position: "right"
+            },
+            layout: {
+              bottom: 100
             }
-            //maintainAspectRatio: false
+            // maintainAspectRatio: false
           }}
         />
+        <div className="margin">
+          <p>hjvjhgjh</p>
+        </div>
       </div>
     );
   }

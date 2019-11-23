@@ -152,62 +152,57 @@ button:focus {
 .row3 {
   width: 70%;
   height: 100%;
-  background: grey;
+  background: transparent;
 }
 /**********Chart ****/
 .row-1 {
   width: 100%;
   height: 100%;
-  background: rgb(255, 255, 255);
+  background: #f3f3f3;
   display: flex;
   flex-direction: row;
-  border-style: groove;
+
   overflow: hidden;
 }
 .congrats-bar {
-  border-style: groove;
-  margin: 3px;
-  box-shadow: 2px 2px 2px 2px grey;
   height: 400px;
   width: 65%;
+  margin-top: 2%;
+  margin-left: 1%;
+  background: rgb(185, 98, 98);
 }
 .stars {
-  border-style: groove;
-  margin: 3px;
-  box-shadow: 2px 2px 2px 2px grey;
+  margin-top: 2%;
+  margin-left: 1%;
+
   height: 400px;
   width: 35%;
 }
 
 .doughnut {
-  border-style: groove;
-  margin: 3px;
-  box-shadow: 2px 2px 2px 2px grey;
-  height: 400px;
+  height: 100%;
   width: 45%;
+  margin: 1%;
 }
 .radar {
-  border-style: groove;
-  margin: 3px;
-  box-shadow: 2px 2px 2px 2px grey;
-  height: 400px;
+  margin: 1%;
+
+  height: 100%;
   width: 55%;
 }
 
 .row-2 {
-  width: 100%;
+  width: 98%;
   height: 100%;
   background: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
-  border-style: groove;
+  margin: 1%;
 }
 .bar-chart {
-  margin: 3px;
-
   height: 50%;
   width: 60%;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 .row-3 {
   width: 100%;
@@ -215,18 +210,13 @@ button:focus {
   background: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
-  border-style: groove;
 }
 .row-4 {
   width: 100%;
-  height: 100%;
+  height: 150%;
   background: rgb(135, 124, 184);
 }
-.row-5 {
-  width: 100%;
-  height: 200px;
-  background: rgb(0, 1, 66);
-}
+
 /*****Scheduled *****/
 
 .row4 {

@@ -2,10 +2,36 @@
   display: flex;
   flex-direction: row;
 }
+.world-map {
+  width: 60%;
+  background-color: white;
+  margin: 1%;
+}
 .map-image {
-  width: 55%;
+  width: 90%;
   height: 100%;
 }
 .progress-bar {
-  width: 45%;
+  width: 40%;
+  background-color: white;
+  margin: 1%;
+}
+.progess-bar-one {
+  width: 90%;
+  color: brown;
+}
+.progress-title {
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 5px;
+}
+.progress-main-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.progress-conent {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

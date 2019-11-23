@@ -1,31 +1,24 @@
 import React, { Component } from "react";
 import { Bar, Line, Pie, Doughnut, Radar } from "react-chartjs-2";
+import "./Pie/Chart";
 
 class BarChart extends Component {
   constructor(props) {
     super(props);
     this.state = {
       chartData: {
-        labels: [
-          "Boston",
-          "Worcester",
-          "Springfield",
-          "Lowell",
-          "Cambridge",
-          "New Bedford"
-        ],
+        labels: ["2013", "2014", "2015", "2016", "2017", "2018"],
         datasets: [
           {
             label: "Population",
-            data: [617594, 181045, 153060, 106519, 105162, 95072],
+            data: [90, 60, 69, 63, 85, 96, 50],
             backgroundColor: [
               "rgba(255, 99, 132, 0.6)",
               "rgba(54, 162, 235, 0.6)",
               "rgba(255, 206, 86, 0.6)",
               "rgba(75, 192, 192, 0.6)",
               "rgba(153, 102, 255, 0.6)",
-              "rgba(255, 159, 64, 0.6)",
-              "rgba(255, 99, 132, 0.6)"
+              "rgba(255, 159, 64, 0.6)"
             ]
           }
         ]
@@ -48,13 +41,14 @@ class BarChart extends Component {
           options={{
             title: {
               display: true,
-              text: "Largest Cities In Massachusetts",
-              fontSize: 10
+              text: "Advisor Statistics",
+              fontSize: 20
             },
             legend: {
               display: true,
               position: "right"
             }
+
             //   maintainAspectRatio: false
           }}
         />

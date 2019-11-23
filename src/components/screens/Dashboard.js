@@ -70,7 +70,6 @@ class Dashboard extends Component {
               <div className="row-4">
                 <Map />
               </div>
-              <div className="row-5"></div>
             </div>
             {
               //********3 rd row*******
