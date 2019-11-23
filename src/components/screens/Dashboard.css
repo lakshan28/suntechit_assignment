@@ -7,8 +7,7 @@
   flex-direction: row;
 }
 .side-bar12 {
-  margin-top: -10px;
-  width: 20%;
+  margin-top: -8px;
 }
 
 .first-row {
@@ -34,8 +33,8 @@
   display: flex;
 }
 .image {
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
   margin-top: 10%;
 }
@@ -45,11 +44,11 @@
   margin-bottom: 5%;
 }
 .profile-name {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 500;
 }
 .profile-status {
-  font-size: 18px;
+  font-size: 15px;
 }
 .horizotal-line {
   background: honeydew;
@@ -85,8 +84,8 @@ p {
 }
 .button-icon {
   color: #ffffff;
-  width: 30%;
-  height: 35px;
+  width: 25%;
+  height: 25px;
   margin-left: 8%;
   margin-top: 2%;
 }
@@ -102,7 +101,7 @@ button:focus {
   outline: 0;
 }
 .title {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   margin-top: 2%;
 }

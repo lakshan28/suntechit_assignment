@@ -46,3 +46,18 @@ button:active {
 .search-bar12:focus {
   outline: 0;
 }
+.main-mail-notification {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.mail-notification {
+  color: white;
+  width: 40px;
+  height: 40px;
+  margin-right: 50px;
+}
+.serach-bar-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}

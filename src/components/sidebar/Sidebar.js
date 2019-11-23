@@ -74,27 +74,18 @@ class Sidebar extends Component {
         </div>
         <div>
           <div>
-            {
-              // ======Button
-            }
             <button className="nav-button">
               <MdDashboard className="button-icon" />
               <p className="title">Dashboard</p>
             </button>
           </div>
           <div>
-            {
-              // ======Button
-            }
             <button className="nav-button">
               <IoIosPersonAdd className="button-icon" />
               <p className="title">Clients</p>
             </button>
           </div>
           <div>
-            {
-              // ======Button
-            }
             <button className="nav-button" style={{ marginBottom: 50 }}>
               <MdAssignmentInd className="button-icon" />
               <p className="title">Leads</p>
@@ -110,45 +101,30 @@ class Sidebar extends Component {
         </div>
         <div>
           <div>
-            {
-              // ======Button
-            }
             <button className="nav-button">
               <MdAccessAlarms className="button-icon" />
               <p className="title">Tasks</p>
             </button>
           </div>
           <div>
-            {
-              // ======Button
-            }
             <button className="nav-button">
               <GoLightBulb className="button-icon" />
               <p className="title">Insights</p>
             </button>
           </div>
           <div>
-            {
-              // ======Button
-            }
             <button className="nav-button">
               <IoIosTrendingUp className="button-icon" />
               <p className="title">Modeling</p>
             </button>
           </div>
           <div>
-            {
-              // ======Button
-            }
             <button className="nav-button">
               <FaFileAlt className="button-icon" />
               <p className="title">Templates</p>
             </button>
           </div>
           <div>
-            {
-              // ======Button
-            }
             <button className="nav-button" style={{ marginBottom: 50 }}>
               <MdFileUpload className="button-icon" />
               <p className="title">Uploads</p>
@@ -163,18 +139,12 @@ class Sidebar extends Component {
         </div>
         <div>
           <div>
-            {
-              // ======Button
-            }
             <button className="nav-button">
               <AiOutlineMail className="button-icon" />
               <p className="title">Email</p>
             </button>
           </div>
           <div>
-            {
-              // ======Button
-            }
             <button className="nav-button" style={{ marginBottom: 50 }}>
               <MdChatBubbleOutline className="button-icon" />
               <p className="title">Chat</p>
@@ -192,18 +162,12 @@ class Sidebar extends Component {
         </div>
         <div>
           <div>
-            {
-              // ======Button
-            }
             <button className="nav-button" style={{ marginBottom: 100 }}>
               <FaRegMap className="button-icon" />
               <p className="title">Maps</p>
             </button>
           </div>
           <div>
-            {
-              // ======Button
-            }
             <button className="nav-button" style={{ marginBottom: 100 }}>
               <FaSlidersH className="button-icon" />
               <p className="title">Maps</p>
@@ -219,9 +183,6 @@ class Sidebar extends Component {
         <div className="horizotal-line"></div>
 
         <div>
-          {
-            // ======Button
-          }
           <button className="nav-button" style={{ marginBottom: 100 }}>
             <AiOutlinePoweroff className="button-icon" />
             <p className="title">Settings</p>

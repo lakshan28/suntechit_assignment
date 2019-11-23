@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { GiHummingbird } from "react-icons/gi";
-import { IoIosSearch } from "react-icons/io";
+import { IoIosSearch, IoMdMail, IoMdNotifications } from "react-icons/io";
 
 import "./SearchBar.css";
 
@@ -29,7 +29,15 @@ class SearchBar extends Component {
             placeholder="Your name.."
           />
         </div>
-        <div></div>
+        <div className="main-mail-notification">
+          <IoMdMail className="mail-notification" />
+          <IoMdNotifications className="mail-notification" />
+          <img
+            className="serach-bar-image"
+            src={require("../../img/background2.jpg")}
+            alt="Logo"
+          />
+        </div>
       </div>
     );
   }
