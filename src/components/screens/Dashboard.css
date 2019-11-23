@@ -6,10 +6,13 @@
   display: flex;
   flex-direction: row;
 }
+.side-bar12 {
+  margin-top: -10px;
+}
 
 .first-row {
   height: 100%;
-  width: 20%;
+  width: 100%;
   background: #131f25;
 }
 .three-line-icon-dev {
@@ -103,6 +106,9 @@ button:focus {
   margin-top: 2%;
 }
 /***search bar */
+.harmonee {
+  margin-bottom: 3%;
+}
 .harmonee-text {
   margin-top: 50px;
   color: aliceblue;
@@ -121,19 +127,20 @@ button:focus {
   border-radius: 50%;
 }
 .main-search-area {
-  display: flex;
-  justify-content: space-around;
+  width: 100%;
 }
 .search-area {
   background: rgb(255, 255, 255);
   width: 50%;
 }
-
+.input-bar {
+  width: 100%;
+  margin-top: 5%;
+}
 /***search bar end */
 .row2 {
   height: 100%;
-  width: 80%;
-
+  width: 100%;
   background-image: linear-gradient(0deg, rgb(46, 139, 3), rgb(1, 185, 93));
 }
 .second-row {
@@ -153,7 +160,23 @@ button:focus {
   display: flex;
   flex-direction: row;
   border-style: groove;
+  overflow: hidden;
 }
+.congrats-bar {
+  border-style: groove;
+  margin: 3px;
+  box-shadow: 2px 2px 2px 2px grey;
+  height: 400px;
+  width: 65%;
+}
+.stars {
+  border-style: groove;
+  margin: 3px;
+  box-shadow: 2px 2px 2px 2px grey;
+  height: 400px;
+  width: 35%;
+}
+
 .doughnut {
   border-style: groove;
   margin: 3px;
