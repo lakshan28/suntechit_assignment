@@ -1,6 +1,6 @@
 .main-register {
   width: 100%;
-  height: 150%;
+  height: 110%;
   background: url("../img//back1.png") no-repeat;
   position: absolute;
   justify-content: center;
@@ -20,7 +20,7 @@
 .welcome-back {
   background: #00a876;
   width: 500px;
-  height: 900px;
+  height: 850px;
 }
 .welcome-back-title {
   font-size: 35px;
@@ -43,7 +43,7 @@
 .register-text-area {
   background: #151a22;
   width: 600px;
-  height: 900px;
+  height: 850px;
 }
 .register-with-harmonee {
   font-size: 20px;
