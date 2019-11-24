@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Dashboard.css";
 
+import { IoIosAddCircle } from "react-icons/io";
 import Sidebar from "../sidebar/Sidebar";
 import Chart from "../Charts/Pie/Chart";
 import PolarAre from "../Charts/PolarAre";
@@ -27,6 +28,9 @@ class Dashboard extends Component {
         {
           //Side
         }
+        <div className="add-button">
+          <IoIosAddCircle className="add-button-icon" />
+        </div>
         <div className="side-bar12">
           <Sidebar />
         </div>
