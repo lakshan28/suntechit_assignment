@@ -5,11 +5,12 @@
   position: absolute;
   justify-content: center;
   align-items: center;
+  background-size: cover;
 
   background-size: cover;
 }
 .container {
-  height: 1000px;
+  height: 85%;
 }
 .row {
   background: #00a876;

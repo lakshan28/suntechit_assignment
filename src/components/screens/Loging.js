@@ -58,7 +58,7 @@ function Loging() {
               />
               <div className="login-row">
                 <button className="login-button">
-                  <Link className="nav-lin register-link" to="/register">
+                  <Link className="nav-lin register-link" to="/login">
                     Login
                   </Link>
                 </button>

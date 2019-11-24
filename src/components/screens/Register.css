@@ -1,0 +1,67 @@
+.main-register {
+  width: 100%;
+  height: 100%;
+  background: url("../img//back1.png") no-repeat;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.register-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.welcome-back {
+  background: #00a876;
+}
+.welcome-back-title {
+  font-size: 25px;
+  margin-left: 13%;
+  margin-top: 26%;
+}
+.keep-title {
+  margin-left: 13%;
+  margin-top: 15%;
+  margin-bottom: 20%;
+}
+.login-button-register {
+  margin-left: 13%;
+  margin-bottom: 30%;
+}
+.register-link-bottom {
+  margin-left: 13%;
+}
+.register-text-area {
+  background: #151a22;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.register-with-harmonee {
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 20%;
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+.input-title2 {
+  color: rgb(255, 255, 255) !important;
+  font-size: 15px !important;
+  margin-left: 18% !important;
+}
+.text-feild-group2 {
+  margin-left: 15%;
+  font-size: 15px !important;
+}
+.checkmark2 {
+  margin-left: 15% !important;
+}
+.register-button2 {
+  margin-left: 25%;
+  margin-top: 5% !important;
+}
+::placeholder {
+  color: #f2f7f987 !important;
+}
