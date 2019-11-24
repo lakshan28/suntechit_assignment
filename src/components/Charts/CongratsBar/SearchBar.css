@@ -1,6 +1,7 @@
 .search-bar-icon1 {
   display: flex;
   flex-direction: row;
+  background-color: #45ac54;
 }
 .harmonee-icon {
   margin-left: 5%;
