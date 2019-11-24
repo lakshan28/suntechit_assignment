@@ -23,6 +23,6 @@
 .scheduled-grop {
   color: #2fba89;
   font-size: 20px;
-
+  position: absolute;
   left: 92%;
 }
