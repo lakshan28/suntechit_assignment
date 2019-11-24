@@ -57,7 +57,7 @@ class Sidebar extends Component {
         <div className="profile-image">
           <img
             className="image"
-            src={require("../img/background.png")}
+            src={require("../img/profile1.jpg")}
             alt="Logo"
           />
         </div>

@@ -34,7 +34,7 @@ class SearchBar extends Component {
           <IoMdNotifications className="mail-notification" />
           <img
             className="serach-bar-image"
-            src={require("../../img/background2.jpg")}
+            src={require("../../img/profile1.jpg")}
             alt="Logo"
           />
         </div>

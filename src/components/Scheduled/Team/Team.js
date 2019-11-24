@@ -12,7 +12,7 @@ class Team extends Component {
           <div className="main-team">
             <img
               className="team-image"
-              src={require("../../img/1 (17).jpg")}
+              src={require("../../img/profile2.jpeg")}
               alt="profile"
             />
 
@@ -26,7 +26,7 @@ class Team extends Component {
           <div className="main-team">
             <img
               className="team-image"
-              src={require("../../img/1 (17).jpg")}
+              src={require("../../img/profile3.jpeg")}
               alt="profile"
             />
 
@@ -40,7 +40,7 @@ class Team extends Component {
           <div className="main-team">
             <img
               className="team-image"
-              src={require("../../img/1 (17).jpg")}
+              src={require("../../img/profile4.jpg")}
               alt="profile"
             />
 
@@ -55,7 +55,7 @@ class Team extends Component {
           <div className="main-team">
             <img
               className="team-image"
-              src={require("../../img/1 (17).jpg")}
+              src={require("../../img/profile5.jpeg")}
               alt="profile"
             />
 
@@ -65,12 +65,12 @@ class Team extends Component {
           </div>
         </div>
         <div className="horizotal-line-team"></div>
-        <div className="horizotal-line-team"></div>
+
         <div>
           <div className="main-team">
             <img
               className="team-image"
-              src={require("../../img/1 (17).jpg")}
+              src={require("../../img/profile6.jpg")}
               alt="profile"
             />
 

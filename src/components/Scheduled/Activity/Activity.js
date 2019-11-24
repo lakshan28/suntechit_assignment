@@ -13,17 +13,17 @@ class Activity extends Component {
         </div>
         <div className="activiy-coloum">
           <div className="activity-icon">
-            <IoMdAddCircleOutline className="indigo-reg-check-circle" />
+            <IoMdAddCircleOutline className="indigo-reg-check-circle1" />
             <div className="vertical-line"></div>
-            <AiOutlineExclamationCircle className="indigo-reg-check-circle" />
+            <AiOutlineExclamationCircle className="indigo-reg-check-circle2" />
             <div className="vertical-line"></div>
-            <FaRegCheckCircle className="indigo-reg-check-circle" />
+            <FaRegCheckCircle className="indigo-reg-check-circle3" />
             <div className="vertical-line"></div>
-            <FaRegCheckCircle className="indigo-reg-check-circle" />
+            <FaRegCheckCircle className="indigo-reg-check-circle4" />
             <div className="vertical-line"></div>
-            <IoMdAddCircleOutline className="indigo-reg-check-circle" />
+            <IoMdAddCircleOutline className="indigo-reg-check-circle5" />
             <div className="vertical-line"></div>
-            <IoMdAddCircleOutline className="indigo-reg-check-circle" />
+            <IoMdAddCircleOutline className="indigo-reg-check-circle6" />
           </div>
           <div className="activity-details-main">
             <div className="activity-conten">
