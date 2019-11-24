@@ -14,11 +14,16 @@
   align-items: center;
   margin-top: 10%;
 }
+.harmoneeeee {
+  margin-top: 10% !important;
+}
 .welcome-back {
   background: #00a876;
+  width: 500px;
+  height: 900px;
 }
 .welcome-back-title {
-  font-size: 25px;
+  font-size: 35px;
   margin-left: 13%;
   margin-top: 26%;
 }
@@ -26,6 +31,7 @@
   margin-left: 13%;
   margin-top: 15%;
   margin-bottom: 20%;
+  font-size: 20px;
 }
 .login-button-register {
   margin-left: 13%;
@@ -36,8 +42,8 @@
 }
 .register-text-area {
   background: #151a22;
-  padding-right: 5%;
-  padding-left: 5%;
+  width: 600px;
+  height: 900px;
 }
 .register-with-harmonee {
   font-size: 20px;

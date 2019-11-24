@@ -10,7 +10,7 @@ function Register() {
       <div className="main-register">
         <div className="register-content">
           <div className="welcome-back">
-            <div className="harmonee  ">
+            <div className="harmonee harmoneeeee  ">
               <div className="harmonee-icon">
                 <GiHummingbird className="harmonee-btn-icon" />
                 <h2 className="harmonee-text">harmonee</h2>
