@@ -185,11 +185,12 @@ button:focus {
   margin-top: 2%;
   margin-left: 1%;
   background: rgb(185, 98, 98);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .stars {
   margin-top: 2%;
   margin-left: 1%;
-
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   height: 400px;
   width: 35%;
 }
@@ -198,10 +199,11 @@ button:focus {
   height: 100%;
   width: 45%;
   margin: 1%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .radar {
   margin: 1%;
-
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   height: 100%;
   width: 55%;
 }
@@ -213,6 +215,7 @@ button:focus {
   display: flex;
   flex-direction: row;
   margin: 1%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .bar-chart {
   height: 50%;
@@ -226,6 +229,7 @@ button:focus {
   display: flex;
   flex-direction: row;
   margin: 2%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .row-4 {
   width: 100%;
@@ -248,7 +252,7 @@ button:focus {
 }
 .row-22 {
   width: 100%;
-  height: 350px;
+  height: 100%;
   background: #ffffff;
 }
 

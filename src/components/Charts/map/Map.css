@@ -6,6 +6,7 @@
   width: 60%;
   background-color: white;
   margin: 1%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .map-image {
   width: 90%;
@@ -15,6 +16,7 @@
   width: 40%;
   background-color: white;
   margin: 1%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .progess-bar-one {
   width: 90%;

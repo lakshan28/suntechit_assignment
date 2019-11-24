@@ -182,9 +182,9 @@ class Sidebar extends Component {
         }
         <div className="horizotal-line"></div>
 
-        <div>
-          <button className="nav-button" style={{ marginBottom: 100 }}>
-            <AiOutlinePoweroff className="button-icon" />
+        <div className="button-icon-logout">
+          <button className="nav-button " style={{ marginBottom: 100 }}>
+            <AiOutlinePoweroff className="button-icon " />
             <p className="title">Logout</p>
           </button>
         </div>
