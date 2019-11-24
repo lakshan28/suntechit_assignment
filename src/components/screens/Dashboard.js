@@ -16,21 +16,54 @@ import Congrats from "../Charts/CongratsBar/Congrats";
 import Visionary from "../Charts/CongratsBar/Visionary";
 import SearchBar from "../Charts/CongratsBar/SearchBar";
 import Map from "../Charts/map/Map";
+import { AiOutlineMail } from "react-icons/ai";
+import { FiMessageSquare } from "react-icons/fi";
+import { MdCancel } from "react-icons/md";
 
 class Dashboard extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      addButton: true
+    };
   }
+  addButtonTongle = () => {
+    this.setState({
+      addButton: !this.state.addButton
+    });
+  };
+
   render() {
+    const addbutton = (
+      <div>
+        <div className="add-button1">
+          <AiOutlineMail className="add-button-icon1" />
+        </div>
+        <div className="add-button2">
+          <FiMessageSquare className="add-button-icon2" />
+        </div>
+        <div className="add-button4">
+          <MdCancel
+            onClick={this.addButtonTongle}
+            className="add-button-icon4"
+          />
+        </div>
+      </div>
+    );
+    const canclebutton = (
+      <div className="add-button3">
+        <IoIosAddCircle
+          onClick={this.addButtonTongle}
+          className="add-button-icon"
+        />
+      </div>
+    );
     return (
       <div className="main">
         {
           //Side
         }
-        <div className="add-button">
-          <IoIosAddCircle className="add-button-icon" />
-        </div>
+        {this.state.addButton ? addbutton : canclebutton}
         <div className="side-bar12">
           <Sidebar />
         </div>

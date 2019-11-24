@@ -11,6 +11,7 @@ import { IoIosPersonAdd, IoIosTrendingUp } from "react-icons/io";
 import { GoLightBulb } from "react-icons/go";
 import { AiOutlineMail, AiOutlinePoweroff } from "react-icons/ai";
 import { FaFileAlt, FaRegMap, FaSlidersH } from "react-icons/fa";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import "./sidebar.css";
 
 class Sidebar extends Component {
@@ -183,10 +184,12 @@ class Sidebar extends Component {
         <div className="horizotal-line"></div>
 
         <div className="button-icon-logout">
-          <button className="nav-button " style={{ marginBottom: 100 }}>
-            <AiOutlinePoweroff className="button-icon " />
-            <p className="title">Logout</p>
-          </button>
+          <Link className="nav-lin register-link" to="/register">
+            <button className="nav-button " style={{ marginBottom: 100 }}>
+              <AiOutlinePoweroff className="button-icon " />
+              <p className="title">Logout</p>
+            </button>
+          </Link>
         </div>
       </div>
     );
