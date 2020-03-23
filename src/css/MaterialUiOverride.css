@@ -1,0 +1,24 @@
+.MuiNativeSelect-select.MuiNativeSelect-select {
+        padding-right: 24px;
+        margin-right: -15px;
+}
+
+/* phone number field */
+.react-tel-input .form-control{
+    width: 16.875rem;
+    border-radius: 0.9375rem;
+    background: transparent
+}
+.react-tel-input .flag-dropdown {
+    border-radius: 0.875rem 0rem 0rem 0.875rem;
+    background: transparent
+}
+
+
+
+/* .MuiRadio-colorSecondary.Mui-checked {
+        color: #9fdbc0;
+} */
+/* select option:hover {
+        box-shadow: 0 0 10px 100px #000 inset;
+} */

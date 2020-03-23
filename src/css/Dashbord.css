@@ -1,0 +1,299 @@
+.report-an-isuue {
+  color: #707070;
+  margin-left: 0.8rem;
+  cursor: pointer;
+}
+
+.submit-report {
+  height: 2rem;
+  cursor: pointer;
+}
+.submit-report:hover {
+  background: #fff;
+}
+
+.notificationViewAll {
+  cursor: pointer;
+  color: rgb(3, 3, 3);
+  margin-right: "3rem";
+}
+.notificationViewAll:hover {
+  color: #30726c;
+}
+
+/* add client animation */
+.beforfilling {
+  position: absolute;
+  height: 74rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -68rem;
+  transition: all 2s ease-in-out;
+}
+
+.afterFillingTitle {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -58rem;
+  transition: all 2s ease-in-out;
+}
+
+.afterFillingPersonal {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -47rem;
+  transition: all 2s ease-in-out;
+}
+
+.afterFillingGender {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -41rem;
+  transition: all 2s ease-in-out;
+}
+.afterFillingContact {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -29rem;
+  transition: all 2s ease-in-out;
+}
+
+.afterFillingAddress {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -25rem;
+  transition: all 2s ease-in-out;
+}
+.afterFillingState {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -20rem;
+  transition: all 2s ease-in-out;
+}
+
+/* add client animation end  */
+
+/*add lead animation */
+.addLeadbeforefilling {
+  position: absolute;
+  height: 74rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -68rem;
+  transition: all 2s ease-in-out;
+}
+
+.addLeadAfterTitlefilling {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -59.5rem;
+  transition: all 2s ease-in-out;
+}
+
+.addLeadAfterFillingName {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -49rem;
+  transition: all 2s ease-in-out;
+}
+
+.addLeadAfterFillingContact {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -36rem;
+  transition: all 2s ease-in-out;
+}
+
+.addLeadAfterFillingExtraDetails {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -28rem;
+  transition: all 2s ease-in-out;
+}
+
+.addLeadAfterFillingExtraDetailsTask {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -12rem;
+  transition: all 2s ease-in-out;
+}
+/*add lead animation End */
+
+/*add Task animation  */
+.addTaskforefilling {
+  position: absolute;
+  height: 74rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -69rem;
+  transition: all 2s ease-in-out;
+}
+
+.addTaskAfterfillingTitleDescription {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -52rem;
+  transition: all 2s ease-in-out;
+}
+
+.addTaskAfterfillingPriority {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -45rem;
+  transition: all 2s ease-in-out;
+}
+
+.addTaskAfterfillingRule {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -36rem;
+  transition: all 2s ease-in-out;
+}
+
+.addTaskAfterfillingRepeat {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -30rem;
+  transition: all 2s ease-in-out;
+}
+.addTaskAfterfillingCertainNumber {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -21rem;
+  transition: all 2s ease-in-out;
+}
+
+.addTaskAfterfillingTaskAndPress {
+  position: absolute;
+  height: 75rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -16rem;
+  transition: all 2s ease-in-out;
+}
+
+
+/* File Note Anmiation CSS */
+.addClientField{
+    position: absolute;
+    height: 71rem;
+    margin-left: -4rem;
+    width: 60rem;
+    margin-top: -66rem;
+    transition: all 2s ease-in-out;
+}
+
+.addClientField01{
+  position: absolute;
+  height: 82rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -66rem;
+  transition: all 2s ease-in-out;
+}
+
+.addClientField01333{
+  position: absolute;
+  height: 91rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -66rem;
+  transition: all 2s ease-in-out;
+}
+
+.addClientField22{
+  position: absolute;
+  height: 130rem;
+  margin-left: -3rem;
+  width: 60rem;
+  margin-top: -66rem;
+  transition: all 2s ease-in-out;
+}
+
+
+/*add Task animation end  */
+
+.hfghdfgdfgdf {
+  background-color: red;
+  color: #ffffff;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+.hfghdfgdfgdf:hover {
+  color: aqua;
+}
+/*************************/
+
+.gloableShortCut {
+  position: absolute;
+  right: 190px;
+  transition: all 0.2s ease-in-out;
+}
+
+.gloableShortCutDisplayNone {
+  transform: scale(0.2);
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+  right: 190px;
+  opacity: 0;
+}
+.gloableShortCutTitleSecton {
+  margin-left: -0.8rem;
+  margin-top: 0.35rem;
+  width: 10rem;
+}
+.gloableShortCutTopic {
+  background-color: #ffffff;
+
+  color: #000000;
+  padding: 0.4rem 1rem 0.4rem 2rem;
+  border-radius: 0 1rem 1rem 0;
+}
+.gloableShortCutTopic:hover {
+  background-color: #e2e2e2;
+  color: #000000;
+}
+.gloableShortCutTitle {
+  display: flex;
+  margin: 0.8rem 0rem -1.5rem 0rem;
+  cursor: pointer;
+}
+
+.gloableShortCutIcon {
+  margin-top: 0.8rem;
+  font-size: 2rem;
+}
+
+
